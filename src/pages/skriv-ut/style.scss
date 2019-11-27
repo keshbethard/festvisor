@@ -1,0 +1,53 @@
+@page {
+    size: auto; margin: 0px;
+}
+
+.print {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+
+    input {
+        background: transparent;
+        font-size: 36px;
+        border: none;
+        width: 100%;
+        text-align: center;
+        font-weight: 700;
+
+        &::placeholder {
+            color: #999;
+        }
+    }
+
+    img {
+        max-width: 75px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .print-blocks {
+        column-count: 2;
+        column-gap: 10px;
+
+        .print-single {
+            padding: 40px 20px 40px 20px;
+            break-inside: avoid;
+            page-break-inside: avoid;
+
+            .title {
+                margin-bottom: 10px;
+                
+                h4 {
+                  font-weight: 700;
+                  margin-bottom: 0;
+                }
+      
+                .melody {
+                  font-size: 14px;
+                  text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

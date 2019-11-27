@@ -1,0 +1,25 @@
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+
+    a {
+    padding: 4px 8px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+    background-color: #eceef0;
+    padding: 2px 10px;
+    line-height: 30px;
+    border-radius: 2px;
+    color: #30302e;
+
+    &:hover,
+    &.active {
+        background-color: #0083B0;
+        color: #fff;
+    }
+    }
+}

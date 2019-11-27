@@ -1,0 +1,76 @@
+.blocks {
+    column-count: 2;      
+    column-gap: 10px;
+    margin-bottom: 10px;
+    
+    .single {
+      break-inside: avoid;
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 10px;
+      box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+      border-radius: 4px;
+      position: relative;
+
+      .add {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 20px;
+        height: 24px;
+        width: 24px;
+        text-align: center;
+        line-height: 24px;
+        border: solid 1px #eceef0;
+        color: #999;
+        border-radius: 2px;
+
+        &:before {
+          content: "Spara";
+          font-size: 12px;
+          position: absolute;
+          left: -40px;
+          opacity: 0;
+        }
+
+        &:hover {
+          background-color: #eceef0;
+          cursor: pointer;
+          color: #999;
+          border-color: #eceef0;
+
+          &:before {
+            opacity: 1;
+            color: #999;
+          }
+        }
+
+        &.active {
+          background-color: #0083B0;
+          border-color: #0083B0;
+          color: #fff;
+
+          &:before {
+            content: "Sparat!";
+            opacity: 1;
+            color: #999;
+            left: -44px;
+          }
+        }
+      }
+
+      .title {
+        margin-bottom: 10px;
+        
+        h4 {
+          font-weight: 700;
+          margin-bottom: 0;
+        }
+
+        .melody {
+          font-size: 14px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
