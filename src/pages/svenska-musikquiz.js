@@ -32,7 +32,26 @@ const IndexPage = () => (
         </ul>
         <div className="music-category-block-footer">
           <div className="difficulty easy">Lätt</div> 
-          <div>Skapad av: <strong>Jakob N.</strong></div>
+          <div>Skapad av: <strong>festvisor.se</strong></div>
+        </div>
+      </div>
+
+      {/* Svensk hiphop */}
+      <div className="music-category-block-column">
+        <div className="music-category-block-title">
+          <h4>Svensk hiphop</h4>
+          <a href="https://open.spotify.com/playlist/0LnvR4QdpEKeRV5ygc4EZM?si=P6HdEzF4R62Bq03hi-nFQQ" target="_blank"><img src={spotify} alt="Spotify" title="Spotify" /></a>
+        </div>
+        <ul>
+          <li>Movits! - Dansa i regnet</li>
+          <li>Erik Lundin - Jag Räcker</li>
+          <li>Timbuktu - Strö lite socker på mig</li>
+          <li>Petter - Repa skivan</li>
+          <li>Maskinen - Upp</li>
+        </ul>
+        <div className="music-category-block-footer">
+          <div className="difficulty easy">Lätt</div> 
+          <div>Skapad av: <strong>festvisor.se</strong></div>
         </div>
       </div>
 

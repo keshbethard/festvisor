@@ -28,22 +28,22 @@ const IndexPage = () => (
       <div className="music-block-head">
         <h2>Kategorier</h2>
       </div>
-      <div className="music-block-column">
+      <Link to="/populara-musikquiz/" className="music-block-column">
         <img src={popularaMusikquiz} alt="Populära musikquiz" title="Populära musikquiz" />
         <h4>Populära musikquiz</h4>
-      </div>
+      </Link>
       <Link to="/svenska-musikquiz/" className="music-block-column">
         <img src={svenskaMusikquiz} alt="Svenska musikquiz" title="Svenska musikquiz" />
         <h4>Svenska musikquiz</h4>
       </Link>
-      <div className="music-block-column">
+      <Link to="/musikquiz-for-barn/" className="music-block-column">
         <img src={musikquizBarn} alt="Musikquiz för barn" title="Musikquiz för barn" />
         <h4>Musikquiz för barn</h4>
-      </div>
-      <div className="music-block-column">
+      </Link>
+      <Link to="/00-tals-musikquiz/" className="music-block-column">
         <img src={zerotiesMusikquiz} alt="00-talet musikquiz" title="00-talet musikquiz" />
         <h4>00-talet</h4>
-      </div>
+      </Link>
       <Link to="/90-tals-musikquiz/" className="music-block-column">
         <img src={ninetiesMusikquiz} alt="90-talet musikquiz" title="90-talet musikquiz" />
         <h4>90-talet</h4>
@@ -52,14 +52,14 @@ const IndexPage = () => (
         <img src={eightiesMusikquiz} alt="80-talet musikquiz" title="80-talet musikquiz" />
         <h4>80-talet</h4>
       </Link>
-      <div className="music-block-column">
+      <Link to="/70-tals-musikquiz/" className="music-block-column">
         <img src={seventiesMusikquiz} alt="70-talet musikquiz" title="70-talet musikquiz" />
         <h4>70-talet</h4>
-      </div>
-      <div className="music-block-column">
+      </Link>
+      <Link to="/60-tals-musikquiz/" className="music-block-column">
         <img src={sixtiesMusikquiz} alt="60-talet musikquiz" title="60-talet musikquiz" />
         <h4>60-talet</h4>
-      </div>
+      </Link>
       <Link to="/musikquiz-rock/" className="music-block-column">
         <img src={rockMusikquiz} alt="Rock musikquiz" title="Rock musikquiz" />
         <h4>Rock</h4>

@@ -36,6 +36,44 @@ const IndexPage = () => (
         </div>
       </div>
 
+      {/* Svensk hiphop */}
+      <div className="music-category-block-column">
+        <div className="music-category-block-title">
+          <h4>Svensk hiphop</h4>
+          <a href="https://open.spotify.com/playlist/0LnvR4QdpEKeRV5ygc4EZM?si=P6HdEzF4R62Bq03hi-nFQQ" target="_blank"><img src={spotify} alt="Spotify" title="Spotify" /></a>
+        </div>
+        <ul>
+          <li>Movits! - Dansa i regnet</li>
+          <li>Erik Lundin - Jag Räcker</li>
+          <li>Timbuktu - Strö lite socker på mig</li>
+          <li>Petter - Repa skivan</li>
+          <li>Maskinen - Upp</li>
+        </ul>
+        <div className="music-category-block-footer">
+          <div className="difficulty easy">Lätt</div> 
+          <div>Skapad av: <strong>festvisor.se</strong></div>
+        </div>
+      </div>
+
+      {/* 00-tals hiphop */}
+      <div className="music-category-block-column">
+        <div className="music-category-block-title">
+          <h4>00-tals hiphop</h4>
+          <a href="https://open.spotify.com/playlist/06zxiM0gcbRrdzwrK4Bb22?si=p8bBEj8DREWDKoOEMXuJcA" target="_blank"><img src={spotify} alt="Spotify" title="Spotify" /></a>
+        </div>
+        <ul>
+          <li>Nelly - Hot In Herre</li>
+          <li>50 Cent - If I Can't</li>
+          <li>Fat Joe - What's Luv?</li>
+          <li>T.I. - Whatever You Like</li>
+          <li>Jay Z - Hard Knock Life</li>
+        </ul>
+        <div className="music-category-block-footer">
+          <div className="difficulty easy">Lätt</div> 
+          <div>Skapad av: <strong>Lisa S.</strong></div>
+        </div>
+      </div>
+
     </div>
   </Layout>
 )

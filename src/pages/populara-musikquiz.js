@@ -7,47 +7,28 @@ import spotify from '../images/spotify.png'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Musikquiz rock" />
+    <SEO title="Populära musikquiz" />
     <div className="block">
-      <h1>Musikquiz rock</h1>
+      <h1>Populära musikquiz</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec dui justo. Nullam imperdiet enim lorem, congue laoreet dui imperdiet et. Nulla dapibus volutpat fermentum. Pellentesque accumsan imperdiet faucibus. In malesuada justo metus, nec bibendum urna vulputate a. Sed pretium sem quis semper consectetur. Phasellus ullamcorper nisi sit amet ex imperdiet elementum. Aliquam placerat sem id erat convallis, vulputate suscipit urna elementum.</p>
     </div>
     <div className="music-category-blocks">
       <div className="music-category-block-head">
-        <h2>Alla rock musikquiz</h2>
+        <h2>Alla populära musikquiz</h2>
       </div>
 
-      {/* 90-tals rock */}
+      {/* Coldplay */}
       <div className="music-category-block-column">
         <div className="music-category-block-title">
-          <h4>90-tals rock</h4>
-          <a href="https://open.spotify.com/playlist/1owvynh0mehMT9Kw0dxt9m?si=u3C9lkanTx-EpMUfC4FrzQ" target="_blank"><img src={spotify} alt="Spotify" title="Spotify" /></a>
+          <h4>Coldplay</h4>
+          <a href="https://open.spotify.com/playlist/66ByiPmZLHt7Fmm1nwItdI?si=HJ4zo1BuSg2MqnVnYbiHjw" target="_blank"><img src={spotify} alt="Spotify" title="Spotify" /></a>
         </div>
         <ul>
-          <li>Weezer - Island In The Sun</li>
-          <li>Nirvana - Lithium</li>
-          <li>Red Hot Chili Peppers - This Velvet Glove</li>
-          <li>Nine Inch Nails - Head Like A Hole</li>
-          <li>Green Day - Welcome to Paradise</li>
-        </ul>
-        <div className="music-category-block-footer">
-          <div className="difficulty medium">Medium</div> 
-          <div>Skapad av: <strong>festvisor.se</strong></div>
-        </div>
-      </div>
-
-      {/* 80-tals rock */}
-      <div className="music-category-block-column">
-        <div className="music-category-block-title">
-          <h4>80-tals rock</h4>
-          <a href="https://open.spotify.com/playlist/2itLLW7MjEn7YG6G8L03zE?si=8-k5ihyQTN-oghMqh1YQnw" target="_blank"><img src={spotify} alt="Spotify" title="Spotify" /></a>
-        </div>
-        <ul>
-          <li>Bon Jovi - You Give Love A Bad Name</li>
-          <li>Guns N' Roses - Welcome To The Jungle</li>
-          <li>Mötley Crüe - Girls, Girls, Girls</li>
-          <li>AC/DC - T.N.T.</li>
-          <li>Twisted Sister - We're Not Gonna Take It</li>
+          <li>Coldplay - Speed of Sound</li>
+          <li>Coldplay - Hymn for the Weekend</li>
+          <li>Coldplay - Til Kingdom Come</li>
+          <li>Coldplay - Paradise</li>
+          <li>Coldplay - Viva La Vida</li>
         </ul>
         <div className="music-category-block-footer">
           <div className="difficulty easy">Lätt</div> 
@@ -55,6 +36,24 @@ const IndexPage = () => (
         </div>
       </div>
 
+      {/* The Beatles */}
+      <div className="music-category-block-column">
+        <div className="music-category-block-title">
+          <h4>The Beatles</h4>
+          <a href="https://open.spotify.com/playlist/3WxmF5suxpge1T5hJjp0js?si=RnzfCL9ERI6Uj9XAW8F5WQ" target="_blank"><img src={spotify} alt="Spotify" title="Spotify" /></a>
+        </div>
+        <ul>
+          <li>The Beatles - Come Together</li>
+          <li>The Beatles - In My Life</li>
+          <li>The Beatles - Twist And Shout</li>
+          <li>The Beatles - Blackbird</li>
+          <li>The Beatles - Here Comes The Sun</li>
+        </ul>
+        <div className="music-category-block-footer">
+          <div className="difficulty easy">Lätt</div> 
+          <div>Skapad av: <strong>festvisor.se</strong></div>
+        </div>
+      </div>
     </div>
   </Layout>
 )
