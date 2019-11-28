@@ -14,11 +14,15 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 32px;
+
+  @media only screen and (min-width: 767px)  {
+    font-size: 48px;
+  }
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 h3 {
@@ -41,20 +45,29 @@ h4 {
   main {
     padding: 10px;
     margin: 0 auto;
-    max-width: 880px;
+    max-width: 100%;
     position: relative;
     min-height: 700px;
+
+    @media only screen and (min-width: 900px)  {
+      max-width: 880px;
+    }
     
     .checkout {
-      position: absolute;
-      left: -220px;
       font-size: 12px;
       background-color: #fff;
       box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
       border-radius: 4px;
       padding: 10px;
-      width: 200px;
       top: 10px;
+      margin-bottom: 10px;
+      width: calc(100% - 20px);
+
+      @media only screen and (min-width: 1380px)  {
+        position: absolute;
+        left: -220px;
+        width: 200px;
+      }
 
       span {
         white-space: nowrap;
@@ -110,15 +123,23 @@ h4 {
         justify-content: center;
 
         .main-wrapper {
-          h1 {
+          h2 {
             color: #fff;
             margin-bottom: 0;
-            font-size: 64px;
+            font-size: 32px;
+
+            @media only screen and (min-width: 767px)  {
+              font-size: 64px;
+            }
           }
 
           p {
-            font-size: 24px;
+            font-size: 18px;
             margin-bottom: 0;
+
+            @media only screen and (min-width: 767px)  {
+              font-size: 24px;
+            }
           }
         }
       }
@@ -174,22 +195,11 @@ h4 {
       }
 
       .block-column {
-        padding: 10px;
+        padding: 10px 5px;
+        width: 100%;
 
-        &.one {
-          width: calc(33.3333% - 11px);
-          border-right: 1px solid #eceef0;
-          padding-left: 0;
-        }
-
-        &.two {
-          width: calc(33.3333% - 21px);
-          border-right: 1px solid #eceef0;
-        }
-
-        &.three {
+        @media only screen and (min-width: 767px)  {
           width: calc(33.3333% - 10px);
-          padding-right: 0;
         }
 
         ul {
@@ -372,14 +382,18 @@ h4 {
     }
 
     .annons {
-      position: absolute;
-      right: -220px;
-      top: 10px;
       padding: 10px;
-      max-width: calc(220px - 20px);
+      max-width: calc(100% - 20px);
       background-color: #fff;
       box-shadow: 1px 1px 1px rgba(0,0,0,.1);
       border-radius: 4px;
+
+      @media only screen and (min-width: 1380px)  {
+        position: absolute;
+        right: -220px;
+        top: 10px;
+        max-width: calc(220px - 20px);
+      }
       
       img {
         display: block;

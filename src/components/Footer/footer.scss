@@ -22,8 +22,13 @@ footer {
           flex-wrap: wrap;
 
           .column {
-              width: calc(25% - 20px);
-              margin: 0 10px;
+              width: 100%;
+              margin-bottom: 20px;
+
+              @media only screen and (min-width: 767px)  {
+                width: calc(25% - 20px);
+                margin: 0 10px 0 10px;
+              }
 
               ul {
                   padding: 0;

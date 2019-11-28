@@ -36,6 +36,25 @@ const IndexPage = () => (
         </div>
       </div>
 
+      {/* 90-tals hiphop */}
+      <div className="music-category-block-column">
+        <div className="music-category-block-title">
+          <h4>90-tals hiphop</h4>
+          <a href="https://open.spotify.com/playlist/4yzc6JexMNhmDuqIN6H4o0?si=fh2TmPxbQXeBN5WxtPIs8A" target="_blank"><img src={spotify} alt="Spotify" title="Spotify" /></a>
+        </div>
+        <ul>
+          <li>Gang Starr - Work</li>
+          <li>Mobb Deep - Survival of the Fittest</li>
+          <li>Wu-Tang Clan - C.R.E.A.M.</li>
+          <li>The Notorious B.I.G. - Who Shot Ya?</li>
+          <li>Nas - N.Y. State of Mind</li>
+        </ul>
+        <div className="music-category-block-footer">
+          <div className="difficulty easy">Lätt</div> 
+          <div>Skapad av: <strong>Jakob N.</strong></div>
+        </div>
+      </div>
+
     </div>
   </Layout>
 )
