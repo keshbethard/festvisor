@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 import musikquizBarn from '../images/musikquiz-for-barn.jpg'
 import popularaMusikquiz from '../images/populara-musikquiz.jpg'
-import klassiskaMusikquiz from '../images/klassiska-musikquiz.jpg'
+import svenskaMusikquiz from '../images/svenska-musikquiz.jpg'
 
 const IndexPage = () => (
   <Layout>
@@ -22,7 +22,7 @@ const IndexPage = () => (
         <p>Hur uppdateradade är ni om dagens musik?</p>
       </div>
       <div className="block-column two">
-        <img src={klassiskaMusikquiz} alt="Smartval.nu" title="Smartval.nu" />
+        <img src={svenskaMusikquiz} alt="Smartval.nu" title="Smartval.nu" />
         <h4>Svenska musikquiz</h4>
         <p>Ut pretium erat quis est ultrices, ut aliquet lacus tempus.</p>
       </div>

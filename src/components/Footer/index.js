@@ -3,6 +3,9 @@ import { Link } from "gatsby"
 
 import "./footer.scss"
 
+import iconFacebook from '../../images/festvisor-facebook.png'
+import iconInstagram from '../../images/festvisor-instagram.png'
+
 const Footer = () => (
   <footer>
     <div className="wrapper">
@@ -33,6 +36,8 @@ const Footer = () => (
         </div>
         <div className="column">
           <h4>Följ oss</h4>
+          <img src={iconFacebook} alt="Facebook" title="Festvisor på Facebook" />
+          <img src={iconInstagram} alt="Instagram" title="Festvisor på Instagram" />
         </div>
       </div>
 
