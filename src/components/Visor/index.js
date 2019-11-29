@@ -38,6 +38,7 @@ class Visor extends React.Component {
             name={item.name} 
             melody={item.melody} 
             text={item.text}
+            sender={item.sender}
             addItem={this.addItem}
           />
         ))}

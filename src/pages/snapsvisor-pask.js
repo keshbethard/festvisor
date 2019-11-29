@@ -16,7 +16,7 @@ class Pask extends React.Component {
 
         <div className="block">
           <h1>Snapsvisor påsk</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec dui justo. Nullam imperdiet enim lorem, congue laoreet dui imperdiet et. Nulla dapibus volutpat fermentum. Pellentesque accumsan imperdiet faucibus. In malesuada justo metus, nec bibendum urna vulputate a. Sed pretium sem quis semper consectetur. Phasellus ullamcorper nisi sit amet ex imperdiet elementum. Aliquam placerat sem id erat convallis, vulputate suscipit urna elementum.</p>
+          <p>April är påskens månad och du stöter på färgglada fjädrar överallt. Butiker pyntar sina butiker med påskpynt och hemmen fylls med fjädrar och kycklingar. Det är även nu som oftast solen och värmen börjar synas i vårt avlånga land. Så i regel är April och påsken en välkommen månad fylld av glädje. Påskmiddagen har en gemensam nämnare med alla andra svenska högtider och det är snapsen. Även vid påsk så finner vi snapsen på matbordet och det finns även snapsvisor till påsk. Istället för att sjunga om grodor eller lambos är de såklart påskrelaterade snapsvisor. Här på denna sida finner du just snapsvisor till påskfirandet. Här hittar du både vanliga och ovanliga snapsvisor och du kan enkelt skapa ditt egna häfte med påsksnapsvisor. Allt du behöver göra för att skapa ditt häfte med påsksnapsvisor är att trycka på plusset i snapsvisorna du vill ha så läggs de till i ett häfte som du sedan kan printa ut.</p>
         </div>
     
         <Categories />
@@ -24,10 +24,10 @@ class Pask extends React.Component {
         <Visor category="pask" />
 
         <div className="block">
-          <h2>Snapsvisor påsk</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec dui justo. Nullam imperdiet enim lorem, congue laoreet dui imperdiet et. Nulla dapibus volutpat fermentum. Pellentesque accumsan imperdiet faucibus. In malesuada justo metus, nec bibendum urna vulputate a. Sed pretium sem quis semper consectetur. Phasellus ullamcorper nisi sit amet ex imperdiet elementum. Aliquam placerat sem id erat convallis, vulputate suscipit urna elementum.</p>
-          <h3>Nubbar</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec dui justo. Nullam imperdiet enim lorem, congue laoreet dui imperdiet et.</p>
+          <h2>Påsk</h2>
+          <p>Från allra första början så firar man påsk för att det var den tiden som Jesus dog och sedan återuppstod. Nuförtiden så är fokusen inte lika stor på det utan numera handlar det om kycklingar och ägg. En tid då familjen samlas för att umgås och göra olika påskaktiviteter som att måla ägg och sedan leta efter påskägg fyllda med godis. Detta är en högtid som barn älskar vilket är väldigt förståeligt då det är överflöd på godis vid denna högtid.<br/>
+          Påskmiddagen är väldigt lik middagen vi äter vid jul. Många påskmiddagar innehåller skinka, ägg, potatis och någon form av macka eller knäckebröd. Många gånger äter man upp äggen man målat tidigare på dagen. Till maten avnjuter man gärna påskmust, öl och snaps. Och med snapsen kommer det såklart snapsvisor så det finns ett stort urval av snapsvisor till påsk som sjungs vid middagen. 
+          </p>
         </div>
       </Layout>
     )

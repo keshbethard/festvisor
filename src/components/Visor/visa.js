@@ -20,7 +20,7 @@ class Visor extends React.Component {
   }
 
   render() {
-    const { name, melody, text } = this.props;
+    const { name, melody, text, sender } = this.props;
 
     return (
       <div className="single">
@@ -30,6 +30,7 @@ class Visor extends React.Component {
           <div className="melody">Melodi: {melody}</div>
         </div>
         <p dangerouslySetInnerHTML={{ __html: text }} />
+        <div className="sender">Inskickad av: <strong>{sender}</strong></div>
       </div>
     )
   }
