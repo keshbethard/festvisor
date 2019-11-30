@@ -8,6 +8,7 @@ const Categories = () => (
       <Link to="/snapsvisor/" activeClassName="active">Alla snapsvisor</Link>
       <Link to="/populara-snapsvisor/" activeClassName="active">Populära snapsvisor</Link>
       <Link to="/snapsvisor-jul/" activeClassName="active">Snapsvisor jul</Link>
+      <Link to="/snapsvisor-nyar/" activeClassName="active">Snapsvisor nyår</Link>
       <Link to="/snapsvisor-pask/" activeClassName="active">Snapsvisor påsk</Link>
       <Link to="/snapsvisor-kraftskiva/" activeClassName="active">Snapsvisor kräftskiva</Link>
       <Link to="/snapsvisor-midsommar/" activeClassName="active">Snapsvisor midsommar</Link>
