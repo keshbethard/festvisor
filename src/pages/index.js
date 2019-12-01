@@ -51,17 +51,17 @@ const IndexPage = () => (
       <div className="block-column one">
         <Link to="/populara-snapsvisor/"><img src={popularaSnapsvisor} alt="Populära snapsvisor" title="Populära snapsvisor" /></Link>
         <h4>Populära snapsvisor</h4>
-        <p>Hur uppdateradade är ni om dagens musik?</p>
+        <p>Här hittar du alla de mest populära snapvisor.</p>
       </div>
       <div className="block-column two">
         <Link to="/snapsvisor-jul/"><img src={snapsvisorJul} alt="Snapsvisor till jul" title="Snapsvisor till jul" /></Link>
         <h4>Snapsvisor till jul</h4>
-        <p>Ut pretium erat quis est ultrices, ut aliquet lacus tempus.</p>
+        <p>Perfekt utvalda snapsvisor till jul hittar du här.</p>
       </div>
       <div className="block-column three">
         <Link to="/snapsvisor-nyar/"><img src={snapsvisorNyar} alt="Snapsvisor till nyår" title="Snapsvisor till nyår" /></Link>
         <h4>Snapsvisor till nyår</h4>
-        <p>Ut pretium erat quis est ultrices, ut aliquet lacus tempus.</p>
+        <p>Ta del av de bästa snapsvisor till nyår här.</p>
       </div>
     </div>
 
@@ -79,7 +79,7 @@ const IndexPage = () => (
 
     <div className="block">
       <h2>Ta del av noggrant utvalda musikquiz</h2>
-      <p>Ifall du är ute efter musikquiz skapade med enkla medel så har du kommit rätt. Här på festvisor.se har vi skapat flera olika Spotify listor från olika genrer och årtal. Varför vi just skapat listor i Spotify är för att det är den tjänsten vi kände flest folk har och för vi tycker det inte skall krävas mycket för att anordna en musikquiz tävling. Så länge du har Spotify så kan du utan problem anordna musikquizen vid nästa sammankomst. Vi kommer lägga till nya listor hela tiden och de mest populära finner du överst i listan.</p>
+      <p>Ifall du är ute efter <Link to="/musikquiz/">musikquiz</Link> skapade med enkla medel så har du kommit rätt. Här på festvisor.se har vi skapat flera olika Spotify listor från olika genrer och årtal. Varför vi just skapat listor i Spotify är för att det är den tjänsten vi kände flest folk har och för vi tycker det inte skall krävas mycket för att anordna en musikquiz tävling. Så länge du har Spotify så kan du utan problem anordna musikquizen vid nästa sammankomst. Vi kommer lägga till nya listor hela tiden och de mest populära finner du överst i listan.</p>
       <h3>Musikfrågesport</h3>
       <p>Att anordna musikfrågesport vid fester eller andra sammankomster är väldig populärt. Tävlingarna arrangeras antingen i lag eller en och en, vi föredrar själva att tävla i lag då det är roligare att tävla tillsammans. Men ifall du tävlar i lag behöver det vara minst 4 deltagare, så är ni mindre än det bör ni tävla var för sig. Man kan använda sig av olika regler och poängsystem vid musikfrågesport. Enklaste reglerna är att den som ropar sitt namn får svara först. Ifall denne svarar fel på frågan går frågan över till motståndarna och ifall även de svarar fel fortsätter man till nästa låt. Rätt svar på artist och låt ger två poäng men om laget bara kan artisten tilldelas bara en poäng. Ett tips är att testa sig fram själv för att se vilket system som fungerar bäst i eran grupp.</p>
     </div>

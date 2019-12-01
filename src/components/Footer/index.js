@@ -12,26 +12,20 @@ const Footer = () => (
       <div className="columns">
         <div className="column">
           <h4>Om oss</h4>
-          <p>festvisor.se är Sveriges största samlingsplats för snapsvisor och musikquiz på nätet. Vi har över en miljon unika besökare varje månad.</p>
+          <p>festvisor.se är en av Sveriges största samlingsplats för snapsvisor och musikquiz på nätet.</p>
         </div>
         <div className="column">
           <h4>Information</h4>
           <ul>
-            <li><Link to="/kontakt">Kontakt</Link></li>
-            <li><Link to="/bidra">Bidra</Link></li>
-            <li><Link to="/annonsering">Annonsera här</Link></li>
-            <li><Link to="/cookiepolicy">Cookiepolicy</Link></li>
-            <li><Link to="/om-oss">Mer om oss</Link></li>
+            <li><Link to="/kontakt/">Kontakt</Link></li>
+            <li><Link to="/bidra/">Bidra</Link></li>
+            <li><Link to="/cookiepolicy/">Cookiepolicy</Link></li>
           </ul>
         </div>
         <div className="column">
           <h4>Övrigt</h4>
           <ul>
-            <li><Link to="/sitemap">Sitemap</Link></li>
-            <li><Link to="/bidra">Bidra</Link></li>
-            <li><Link to="/annonsering">Annonsera här</Link></li>
-            <li><Link to="/cookiepolicy">Cookiepolicy</Link></li>
-            <li><Link to="/om-oss">Mer om oss</Link></li>
+            <li><Link to="/sitemap/">Sitemap</Link></li>
           </ul>
         </div>
         <div className="column">
