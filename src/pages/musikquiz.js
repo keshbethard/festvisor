@@ -12,10 +12,12 @@ import ninetiesMusikquiz from '../images/90-talet-musikquiz.jpg'
 import eightiesMusikquiz from '../images/80-talet-musikquiz.jpg'
 import seventiesMusikquiz from '../images/70-talet-musikquiz.jpg'
 import sixtiesMusikquiz from '../images/60-talet-musikquiz.jpg'
+import musikquizSommarplagor from '../images/musikquiz-sommarplagor.jpg'
 import rockMusikquiz from '../images/rock-musikquiz.jpg'
 import hiphopMusikquiz from '../images/hiphop-musikquiz.jpg'
 import ovrigtMusikquiz from '../images/ovrigt.jpg'
-
+import musikquizJul from '../images/musikquiz-jul.jpg'
+import musikquizForAldre from '../images/musikquiz-for-aldre.jpg'
 
 const IndexPage = () => (
   <Layout>
@@ -40,8 +42,28 @@ const IndexPage = () => (
         <img src={musikquizBarn} alt="Musikquiz för barn" title="Musikquiz för barn" />
         <h4>Musikquiz för barn</h4>
       </Link>
-      <Link to="/00-tals-musikquiz/" className="music-block-column">
-        <img src={zerotiesMusikquiz} alt="00-talet musikquiz" title="00-talet musikquiz" />
+      <Link to="/musikquiz-sommarplagor/" className="music-block-column">
+        <img src={musikquizSommarplagor} alt="Musikquiz sommarplågor" title="Musikquiz sommarplågor" />
+        <h4>Sommarplågor</h4>
+      </Link>
+      <Link to="/musikquiz-rock/" className="music-block-column">
+        <img src={rockMusikquiz} alt="Rock musikquiz" title="Rock musikquiz" />
+        <h4>Rock</h4>
+      </Link>
+      <Link to="/musikquiz-hiphop/"className="music-block-column">
+        <img src={hiphopMusikquiz} alt="HipHop musikquiz" title="HipHop musikquiz" />
+        <h4>HipHop</h4>
+      </Link>
+      <Link to="/musikquiz-jul/"className="music-block-column">
+        <img src={musikquizJul} alt="Musikquiz jul" title="Musikquiz jul" />
+        <h4>Jul</h4>
+      </Link>
+      <Link to="/musikquiz-for-aldre/" className="music-block-column">
+        <img src={musikquizForAldre} alt="Musikquiz för äldre" title="Musikquiz för äldre" />
+        <h4>För äldre</h4>
+      </Link>
+      <Link to="/musikquiz-2000-talet/" className="music-block-column">
+        <img src={zerotiesMusikquiz} alt="Musikquiz 2000 talet" title="Musikquiz 2000 talet" />
         <h4>00-talet</h4>
       </Link>
       <Link to="/90-tals-musikquiz/" className="music-block-column">
@@ -59,14 +81,6 @@ const IndexPage = () => (
       <Link to="/60-tals-musikquiz/" className="music-block-column">
         <img src={sixtiesMusikquiz} alt="60-talet musikquiz" title="60-talet musikquiz" />
         <h4>60-talet</h4>
-      </Link>
-      <Link to="/musikquiz-rock/" className="music-block-column">
-        <img src={rockMusikquiz} alt="Rock musikquiz" title="Rock musikquiz" />
-        <h4>Rock</h4>
-      </Link>
-      <Link to="/musikquiz-hiphop/"className="music-block-column">
-        <img src={hiphopMusikquiz} alt="HipHop musikquiz" title="HipHop musikquiz" />
-        <h4>HipHop</h4>
       </Link>
       <Link to="/ovriga-musikquiz/" className="music-block-column">
         <img src={ovrigtMusikquiz} alt="Övrigt" title="Övrigt" />

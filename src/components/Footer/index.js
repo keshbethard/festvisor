@@ -23,9 +23,10 @@ const Footer = () => (
           </ul>
         </div>
         <div className="column">
-          <h4>Övrigt</h4>
+          <h4>Snabbmeny</h4>
           <ul>
-            <li><Link to="/sitemap/">Sitemap</Link></li>
+            <li><Link to="/snapsvisor/">Snapsvisor</Link></li>
+            <li><Link to="/musikquiz/">Musikquiz</Link></li>
           </ul>
         </div>
         <div className="column">

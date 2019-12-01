@@ -10,7 +10,6 @@ const IndexPage = () => (
     <SEO title="70-tals musikquiz" />
     <div className="block">
       <h1>70-tals musikquiz</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec dui justo. Nullam imperdiet enim lorem, congue laoreet dui imperdiet et. Nulla dapibus volutpat fermentum. Pellentesque accumsan imperdiet faucibus. In malesuada justo metus, nec bibendum urna vulputate a. Sed pretium sem quis semper consectetur. Phasellus ullamcorper nisi sit amet ex imperdiet elementum. Aliquam placerat sem id erat convallis, vulputate suscipit urna elementum.</p>
     </div>
     <div className="music-category-blocks">
       <div className="music-category-block-head">
