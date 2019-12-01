@@ -24,10 +24,12 @@ footer {
           .column {
               width: 100%;
               margin-bottom: 20px;
+              text-align: center;
 
               @media only screen and (min-width: 767px)  {
                 width: calc(25% - 20px);
                 margin: 0 10px 0 10px;
+                text-align: left;
               }
 
               ul {
@@ -55,8 +57,14 @@ footer {
       }
 
       .copyright {
-          display: block;
-          padding: 0 10px;
+        display: block;
+        padding: 0 10px;
+        text-align: center;
+
+        @media only screen and (min-width: 767px)  {
+            font-size: 16px;
+            text-align: left;
+        }
       }
     }
 }

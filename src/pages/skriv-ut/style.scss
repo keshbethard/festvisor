@@ -27,8 +27,12 @@
     }
 
     .print-blocks {
-        column-count: 2;
+        column-count: 1;
         column-gap: 10px;
+
+        @media only screen and (min-width: 767px)  {
+            column-count: 2;
+        }
 
         .print-single {
             padding: 40px 20px 40px 20px;

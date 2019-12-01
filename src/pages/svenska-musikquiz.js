@@ -10,7 +10,7 @@ const IndexPage = () => (
     <SEO title="Svenska musikquiz" />
     <div className="block">
       <h1>Svenska musikquiz</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec dui justo. Nullam imperdiet enim lorem, congue laoreet dui imperdiet et. Nulla dapibus volutpat fermentum. Pellentesque accumsan imperdiet faucibus. In malesuada justo metus, nec bibendum urna vulputate a. Sed pretium sem quis semper consectetur. Phasellus ullamcorper nisi sit amet ex imperdiet elementum. Aliquam placerat sem id erat convallis, vulputate suscipit urna elementum.</p>
+      <p>Musikquizar med låtar från utländska artister må vara bra men inget går upp emot en musikquiz med svenska låtar. Här inne finner musikquiz med svenska artister som Carola, Petter, Peps Persson  och många fler. Allt från nya låtar till gamla klassiker för att göra utmaningen så mångsidig som möjligt. Trots att vi i Sverige är bortskämda med flera världsartister så är det endast låtar på svenska i våra musikquiz. Ifall du missat vår introduktion av våra muqikquizar så har vi skapat listor i spotify om du enkelt kan lägga till genom att klicka på spotify ikonen. Under varje lista ser du vilken svårighetsgrad listan har så är du ute efter ett quiz som även icke musiknördar klarar av bör du hålla dig till medel eller lätt. Det går dock även spela de svåra men där kan det finnas fler låtar som inte är så kända. Eller varför inte lägga till flera muiskquiz spellistor till din spotify och blanda mellan det svenska musikquizen och någon annan musikquiz, möjligheterna är många med våra musikquizar!</p>
     </div>
     <div className="music-category-blocks">
       <div className="music-category-block-head">

@@ -81,10 +81,14 @@ a {
       span {
         white-space: nowrap;
         text-overflow: ellipsis;
-        width: calc(200px - 20px);
+        width: calc(100% - 20px);
         display: block;
         overflow: hidden;
         padding: 10px;
+
+        @media only screen and (min-width: 1380px)  {
+          width: calc(200px - 20px);
+        }
 
         &:nth-child(odd) {
           background-color: #f8f8f8;
@@ -253,9 +257,15 @@ a {
       }
 
       .music-block-column {
-        width: calc(33.3333% - 10px);
+        width: calc(100% - 10px);
         margin: 5px;
         position: relative;
+
+        @media only screen and (min-width: 767px)  {
+          width: calc(33.3333% - 10px);
+          margin: 0;
+        }
+
 
         h4 {
           margin-bottom: 0;
@@ -292,9 +302,14 @@ a {
       }
 
       .music-category-block-column {
-        width: calc(33.3333% - 10px);
+        width: calc(100% - 10px);
         margin: 5px 5px 10px 5px;
         box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px;
+
+        @media only screen and (min-width: 767px)  {
+          width: calc(33.3333% - 10px);
+        }
+
 
         .music-category-block-title {
           width: calc(100% - 20px);
@@ -409,6 +424,22 @@ a {
         right: -220px;
         top: 10px;
         max-width: calc(220px - 20px);
+      }
+
+      .annons-small {
+        display: none;
+
+        @media only screen and (min-width: 1380px)  {
+          display: block;
+        }
+      }
+
+      .annons-big {
+        display: block;
+
+        @media only screen and (min-width: 1380px)  {
+          display: none;
+        }
       }
       
       img {

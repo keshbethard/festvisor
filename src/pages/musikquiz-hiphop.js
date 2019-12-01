@@ -10,7 +10,7 @@ const IndexPage = () => (
     <SEO title="Musikquiz hiphop" />
     <div className="block">
       <h1>Musikquiz hiphop</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec dui justo. Nullam imperdiet enim lorem, congue laoreet dui imperdiet et. Nulla dapibus volutpat fermentum. Pellentesque accumsan imperdiet faucibus. In malesuada justo metus, nec bibendum urna vulputate a. Sed pretium sem quis semper consectetur. Phasellus ullamcorper nisi sit amet ex imperdiet elementum. Aliquam placerat sem id erat convallis, vulputate suscipit urna elementum.</p>
+      <p>Vad sägs om en hiphop musikquiz med tunga hiphopartister som Snoop Dogg, Nas eller svenska Petter? Här finner du olika musikquizar med blandade hiphoplåtar. Listorna innehåller en blandning av både nya och gamla låtar. Hiphop låtar gjorda av svenska eller utländska artister, ja en hel massa Musikquiz med hiphop musik. Denna genre är så pass stor och har spelats i radio och tv genom alla år så dessa musikquizarna är inte endast för folk som älskar hiphop. Med undantag för de med högre svårighetsgrad, där kan det vara låtar som endast de inbitna kan. Som tur är finns det ett gott urval av listor med lägre svårighetsgrad så alla kan vara med. Vi kan också tipsa om våra andra listor för det är inte alltid att alla på festen gillar hiphop och eftersom ett musikquiz går relativt fort går det köra flera. För att lägga till spellistan till din spotify behöver du bara klicka på spotifylogon. Lycka till!</p>
     </div>
     <div className="music-category-blocks">
       <div className="music-category-block-head">

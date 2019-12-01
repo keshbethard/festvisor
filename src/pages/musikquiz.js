@@ -22,7 +22,7 @@ const IndexPage = () => (
     <SEO title="Musikquiz" />
     <div className="block">
       <h1>Musikquiz</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec dui justo. Nullam imperdiet enim lorem, congue laoreet dui imperdiet et. Nulla dapibus volutpat fermentum. Pellentesque accumsan imperdiet faucibus. In malesuada justo metus, nec bibendum urna vulputate a. Sed pretium sem quis semper consectetur. Phasellus ullamcorper nisi sit amet ex imperdiet elementum. Aliquam placerat sem id erat convallis, vulputate suscipit urna elementum.</p>
+      <p>Här inne finner du musikquizar som passar alla sorters publik. Och allt vi har här på festvisor.se är gratis, förutom musikquizar har vi även en stor samling av <Link to="/snapsvisor/">snapsvisor</Link>. Vi har Spotifylistor till flera olika kategorier så du enkelt kan välja vilken genre som passar ditt sällskap bäst. Du ser även svårighetsgraden under varje lista, för att förenkla valet av vad som passar er. Vad sägs om en lista full av rock, allt från gamla godingar till nya rocklåtar. Eller kanske ett passande årtionde med låtar ni alla minns. Vi har noggrant valt ut låtar till varje lista, låtar som vi tror många minns från varje årtionde eller genre. Ett tips är att prova olika listor innan du skall hålla i musikquizen. Klicka på Spotify knappen för att lägga till musikquizen “spellistan” till din spotify. Sedan kan du kolla vilka låtar listan innehåller och avgöra om den passar bra eller inte.</p>
     </div>
     <div className="music-blocks">
       <div className="music-block-head">
@@ -74,10 +74,12 @@ const IndexPage = () => (
       </Link>
     </div>
     <div className="block">
-      <h2>Mer text om musikquiz</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec dui justo. Nullam imperdiet enim lorem, congue laoreet dui imperdiet et. Nulla dapibus volutpat fermentum. Pellentesque accumsan imperdiet faucibus. In malesuada justo metus, nec bibendum urna vulputate a. Sed pretium sem quis semper consectetur. Phasellus ullamcorper nisi sit amet ex imperdiet elementum. Aliquam placerat sem id erat convallis, vulputate suscipit urna elementum.</p>
-      <h3>Mer text om musikquiz</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec dui justo. Nullam imperdiet enim lorem, congue laoreet dui imperdiet et. Nulla dapibus volutpat fermentum. Pellentesque accumsan imperdiet faucibus. In malesuada justo metus, nec bibendum urna vulputate a. Sed pretium sem quis semper consectetur. Phasellus ullamcorper nisi sit amet ex imperdiet elementum. Aliquam placerat sem id erat convallis, vulputate suscipit urna elementum.</p>
+      <h2>Musikquiz tävling</h2>
+      <p>Att tävla mot varandra i en musikquiz tävling är fruktansvärt roligt! Med endast en spotifylista skapad av oss kan du skapa en fantastisk tävling på bara ett par minuter. Att det är så simpelt är dock inte det bästa, för det bästa är att man kan vara hur många deltagare som helst. Allt som behövs är penna, papper och en av våra listor sedan är tävlingen i full gång. Ett tips till er som är äldre och har tänkt köra en musikquiz på festen. Lägg till i reglerna att för varje gång någon svarar fel får de ta en klunk öl eller annat. Detta ger tävlingen en helt annan dimension och pressen på att svara rätt blir betydligt högre.<br/>
+      Vi har själva testat flera utav våra musikquiz listor och de har varit väldigt uppskattade. Så vi hoppas på att även ni uppskattar det. Är det så att du tycker vi gjort ett förbaskat bra jobb får du gärna lämna en like på våran facebooksida, det uppskattar vi.
+      </p>
+      <h3>Spotify musikquiz</h3>
+      <p>Alla våra musikquizar är skapade som spotifylistor. Orsaken till detta är att idag har de flesta i Sverige och skulle du inte ha det kan vi garantera att någon av gästerna har det. Fruktansvärt simpelt och efter du lagt till listan väljer du själv om du vill spara den eller kasta den. Eller varför inte använda en av våra musikquiz listor som grund och skapa en egen där du kan lägga till egna favoriter. </p>
     </div>
   </Layout>
 )

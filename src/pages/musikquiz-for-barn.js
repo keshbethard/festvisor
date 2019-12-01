@@ -10,7 +10,7 @@ const IndexPage = () => (
     <SEO title="Msikquiz för barn" />
     <div className="block">
       <h1>Musikquiz för barn</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec dui justo. Nullam imperdiet enim lorem, congue laoreet dui imperdiet et. Nulla dapibus volutpat fermentum. Pellentesque accumsan imperdiet faucibus. In malesuada justo metus, nec bibendum urna vulputate a. Sed pretium sem quis semper consectetur. Phasellus ullamcorper nisi sit amet ex imperdiet elementum. Aliquam placerat sem id erat convallis, vulputate suscipit urna elementum.</p>
+      <p>Här finner du musicquizar för barn med kända barnlåtar. Låtarna kommer från olika barnprogram och filmer. Men även flera kända barnlåtar från olika artister. Att anordna ett barnkalas är en stor grej i sig. Först och främst vill man planera efter att barnen hela tiden skall ha något att göra så de inte vänder upp och ner på huset. Här har du ett superbra alternativ till att engagera barnen och få dem att sitta stilla en stund. Här kan du välja mellan flera olika spotifylistor med barnlåtar och köra en musikquiz för barnen. Något barn är väldigt duktiga på är att tävla i grupp så dela gärna upp dem i lag. Ett bra tips är att ha en stor godisskål där laget som svarar rätt får ta vars en bit ifrån. Detta har vi märkt är väldigt populärt och det blir en god sammanhållning i gruppen. För att lägga till någon av våra barn musikquiz listor behöver du bara klicka på spotify ikonen sedan är det klart. Nu när kalaset är räddat så får du gärna passa på att gilla oss på Facebook.</p>
     </div>
     <div className="music-category-blocks">
       <div className="music-category-block-head">
