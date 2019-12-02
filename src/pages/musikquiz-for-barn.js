@@ -26,9 +26,9 @@ const IndexPage = () => (
         <ul>
           <li>Alice Scherman - Idas sommarvisa</li>
           <li>Pinkfong - Babyshark</li>
-          <li>The Beatles - Twist And Shout</li>
-          <li>The Beatles - Blackbird</li>
-          <li>The Beatles - Here Comes The Sun</li>
+          <li>Annika Herlitz - Slå Dig Fri</li>
+          <li>Babblarna - Första Låten</li>
+          <li>Laila Adele - En värld full av liv</li>
         </ul>
         <div className="music-category-block-footer">
           <div className="difficulty easy">Lätt</div> 

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: `https://www.festvisor.se`,
-    title: `Festvisor och musikfrågesport  för alla tillfällen.`,
+    title: `Festvisor och musikfrågesport för alla tillfällen.`,
     description: `Liv upp festen med härliga festvisor och musikfrågesport!`,
     author: `@gatsbyjs`,
   },
@@ -29,6 +29,12 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/festvisor-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-92073965-5",
       },
     },
   ],

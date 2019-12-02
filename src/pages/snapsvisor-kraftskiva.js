@@ -15,7 +15,7 @@ class Kraftskiva extends React.Component {
         <SEO title="Snapsvisor kräftskiva" />
 
         <div className="block">
-          <h1>Snapsvisor midsommar</h1>
+          <h1>Snapsvisor kräftskiva</h1>
           <p>Sensommaren är här och det vankas kräftskivor. Sjöar och åar fylls med kräftburar medans de lata går till mataffären för att inhandla kräftor. Cyklar ses över så däcken är pumpade och taxichaufförer har på tok för mycket att göra. Bolaget säljer ofantliga mängder av flaskor med snaps. Partytälten sätts upp och pyntas med alla möjliga kräft relaterade prylar. Festen är nu igång och kräftfrossa har börjat. Snapsflaskorna öppnas och det är nu dax för snapsvisor innan snapsen åker ner. Det är precis nu som vi på festvisor kommer in i bilden på kräftskivan. För här är det möjligt för dig att skapa ditt egna häfte med snapsvisor till kräftskivan. Här under ser du ett stort urval av kräftskiva snapsvisor som du enkelt kan skriva ut här på sidan. Visst är det grymt! Välj ut vilka snapsvisor du vill ha på din kräftskiva och printa ut dem direkt. Ett kanonbra sätt att involvera alla i snapsvisorna och festen blir ihågkommen som en av de bättre!</p>
         </div>
     
