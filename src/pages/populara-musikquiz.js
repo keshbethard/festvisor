@@ -7,7 +7,11 @@ import spotify from '../images/spotify.png'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Populära musikquiz" />
+    <SEO 
+      title="Populära musikquiz » Prova våra populäraste quiz idag!"
+      description="Här har vi samlat alla de mest populära musikquiz vi har på vår sajt! Testa dem idag och se ifall de går hem även hos er!"
+    />
+
     <div className="block">
       <h1>Populära musikquiz</h1>
       <p>Välkommen till vår samlingssida med våra populära musikquizar. Här finner du alla våra mest använda musikquiz. Tänk på att  ordningen på listorna kan ändras ofta då deras placering är baserad på antalet klick spellistorna får. Så är du osäker på vilken kategori du skall välja när du skall hålla i en musikquiz så kan detta vara ett bra hjälpmedel för dig.  Men tänk på att ifall du hittar en musikquiz som du gillar bör du spara den redan nu. För det är inte säkert den finns på samma placering nästa gång du kommer tillbaka hit.<br/>

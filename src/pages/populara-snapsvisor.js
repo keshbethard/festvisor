@@ -12,7 +12,10 @@ class Populara extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Populära snapsvisor" />
+        <SEO 
+          title="Populära snapsvisor » Sveriges populäraste snapsvisor finner du här!"
+          description="Ta en titt på vår samling av populära snapsvisor. Ta del av vad alla våra besökare tycker är bäst inom snapsvisor här."
+        />
 
         <div className="block">
           <h1>Populära snapsvisor</h1>

@@ -13,7 +13,10 @@ import snapsvisorNyar from '../images/snapsvisor-nyar.jpg'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Hem" />
+    <SEO 
+      title="Välkommen till Festvisor » Vi kan snapsvisor och musikquiz!"
+      description="Kika in våra grymma samlingar av snapsvisor och musikquiz! Skriv ut ett häfte med visor eller lägg till musikquizen på under 4 minuter!"
+    />
     <div className="front-blocks">
       <div className="block-head">
         <h2>Musikquiz</h2>

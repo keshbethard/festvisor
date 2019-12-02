@@ -12,7 +12,10 @@ class Finska extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Finska snapsvisor" />
+        <SEO 
+          title="Finska snapsvisor » Bästa snapsvisorna från Finland"
+          description="Lägg till finska snapsvisor i ditt häfte idag! Vi har samlat alla de mest populära snapsvisorna här!"
+        />
 
         <div className="block">
           <h1>Finska snapsvisor</h1>

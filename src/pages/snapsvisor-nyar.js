@@ -33,7 +33,10 @@ class Midsommar extends React.Component {
 
     return (
       <Layout>
-        <SEO title="Snapsvisor nyår" />
+        <SEO 
+          title="Snapsvisor nyår » Perfekta visor till snapsen på nyår!"
+          description="Ta del av en perfekt samlinga av snapsvisor till nyår här! Lägg ihop ditt egna häfte på direkten och skriv ut."
+        />
 
         <div className="block">
           <h1>Snapsvisor nyår</h1>

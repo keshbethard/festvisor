@@ -12,7 +12,10 @@ class Pask extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Snapsvisor påsk" />
+        <SEO 
+          title="Snapsvisor påsk » Ta en snaps och sjung in påsken med oss!"
+          description="Här finner du alla snapsvisor till påsk på ett och samma ställe. Klistra ihop ett eget häfte och skriv ut här hos oss!"
+        />
 
         <div className="block">
           <h1>Snapsvisor påsk</h1>

@@ -21,7 +21,11 @@ import musikquizForAldre from '../images/musikquiz-for-aldre.jpg'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Musikquiz" />
+    <SEO 
+      title="Musikquiz » Prova våra populära quiz idag!"
+      description="Här finner du ett stort urval av musikquiz som du är igång med på rekordtid! Flera populära kategorier och genrer har vi samlat här."
+    />
+
     <div className="block">
       <h1>Musikquiz</h1>
       <p>Här inne finner du musikquizar som passar alla sorters publik. Och allt vi har här på festvisor.se är gratis, förutom musikquizar har vi även en stor samling av <Link to="/snapsvisor/">snapsvisor</Link>. Vi har Spotifylistor till flera olika kategorier så du enkelt kan välja vilken genre som passar ditt sällskap bäst. Du ser även svårighetsgraden under varje lista, för att förenkla valet av vad som passar er. Vad sägs om en lista full av rock, allt från gamla godingar till nya rocklåtar. Eller kanske ett passande årtionde med låtar ni alla minns. Vi har noggrant valt ut låtar till varje lista, låtar som vi tror många minns från varje årtionde eller genre. Ett tips är att prova olika listor innan du skall hålla i musikquizen. Klicka på Spotify knappen för att lägga till musikquizen “spellistan” till din spotify. Sedan kan du kolla vilka låtar listan innehåller och avgöra om den passar bra eller inte.</p>

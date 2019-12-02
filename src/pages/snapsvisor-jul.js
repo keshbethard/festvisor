@@ -33,7 +33,10 @@ class Jul extends React.Component {
 
     return (
       <Layout>
-        <SEO title="Snapsvisor jul" />
+        <SEO 
+          title="Snapsvisor jul » Jingle Bells, Jingle bells nubben åker ner!"
+          description="Vi har samlat alla snapsvisor till jul på ett och samma ställe! Och det bästa är att du kan skapa ett julsnapsvisor häfte helt gratis idag!"
+        />
 
         <div className="block">
           <h1>Snapsvisor jul</h1>

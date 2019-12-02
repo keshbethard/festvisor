@@ -33,7 +33,10 @@ class Snapsvisor extends React.Component {
 
     return (
       <Layout>
-        <SEO title="Snapsvisor" />
+        <SEO 
+          title="Snapsvisor » Samling av alla snapsvisor hittar du här!" 
+          description="Skapa ditt eget häfte och välj från alla snapsvisor som finns hos oss på festvisor idag! Välj bland 100-tals snapsvisor."
+        />
 
         <div className="block">
           <h1>Snapsvisor</h1>

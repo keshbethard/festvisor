@@ -12,7 +12,10 @@ class Kraftskiva extends React.Component {
   render() {
     return (
       <Layout>
-        <SEO title="Danska snapsvisor" />
+        <SEO 
+          title="Danska snapsvisor » Spetsa festen med snapsvisor från Danmark!"
+          description="Våga testa danska snapsvisor vid nästa fest! Ta en titt och välj ut vilka snapsvisor du tycker passar bäst till festen redan nu!"
+        />
 
         <div className="block">
           <h1>Danska snapsvisor</h1>

@@ -7,7 +7,10 @@ import spotify from '../images/spotify.png'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Musikquiz sommarplågor" />
+    <SEO 
+      title="Musikquiz Sommarplågor » Quizar där de flesta briljerar!" 
+      description="Ett musikquiz med sommarplågor är något de flesta briljerar i. För det finns knappt någon som lyckats undgå dessa låtar. Lägg till dem nu direkt!"
+    />
     <div className="block">
       <h1>Musikquiz sommarplågor</h1>
       <p>Sommarplågor, alla har vid något tillfälle avskytt dem för att senare komma på sig själv nynnandes på låtarna. Därför har vi skapat flera olika Musikquiz med sommarplågor. Här finner du listor med sommarplågor från bland annat Per Gessle, Markoolio, Hov1 och många fler. Så nu är det upp till bevis om ni har koll på sommarplågorna som spelats. Dessa musikquizar med sommarplågor passar utmärkt vid alla tillfällen och vi har märkt när vi själva kört dem att de är väldigt uppskattade och framkallar många skratt. Det är alltid någon i sällskapet som uppger sig för att avsky sådana här låtar men som sedan briljerar. För dig som inte riktigt har koll på vad en sommarplåga är så handlar det om låtar som ständigt spelas på radion under hela sommaren. Låtarna är gärna av gladare och festligare sort, enklaste sättet att få reda på vad det är låtar är att bara lägga till en av våra sommarplågor musikquiz till din spotify och lyssna.<br/>
