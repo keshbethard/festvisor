@@ -5,6 +5,7 @@ module.exports = {
     description: `Liv upp festen med härliga festvisor och musikfrågesport!`,
     author: `@gatsbyjs`,
   },
+  pathPrefix: "/",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
