@@ -8,7 +8,7 @@ import spotify from '../images/spotify.png'
 const IndexPage = () => (
   <Layout>
     <SEO 
-      title="Musikquiz Sommarplågor » Quizar där de flesta briljerar!" 
+      title="Musikquiz sommarplågor » Quizar där de flesta briljerar!" 
       description="Ett musikquiz med sommarplågor är något de flesta briljerar i. För det finns knappt någon som lyckats undgå dessa låtar. Lägg till dem nu direkt!"
     />
     <div className="block">

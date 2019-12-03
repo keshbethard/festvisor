@@ -1,54 +1,56 @@
 export const data = [
     {
-      id: "001",
+      id: "0001",
       name: "Helan går",
       melody: "Helan går",
-      category: ['alla', 'populara', 'midsommar'],
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'],
       text: "Helan går<br/>Sjung hopp fallerallan lallan lej<br/>Helan går<br/>Sjung hopp fallerallan lej<br/>Och den som inte helan tar,<br/>Han heller inte Halvan får<br/>Helan går...<br/>(Helan tages)<br/>Sjung hopp faderallan lej.",
       sender: "anonym"
     },
     {
-      id: "002",
+      id: "0002",
       name: "Till spritbolaget",
       melody: "Snickerboa",
-      category: ['alla', 'jul'],
+      category: ['alla'],
       text: "Till spritbolaget ränner jag,<br/>Och bankar på dess port.<br/>Jag vill ha nå't som bränner bra,<br/>Och får mig skitfull fort.<br/><br/>Expediten sade goda',<br/> Hur gammal kan min herre va'.<br/>Har du nåt leg, ditt fula drägg,<br/>Kom hit igen när du har fått skägg.<br/><br/>Nej, detta var ju inte bra,<br/>Jag skall bli full ikväll.<br/>Då plötsligt en ide jag fick,<br/>De har ju sprit på Shell.<br/><br/>Många flaskor stod där på ra'.<br/>Så nu kan jag bli full och gla'.<br/>Den röda drycken åkte ner,<br/>Nu kan jag inte titta mer.",
       sender: "anonym"
     },
     {
-      id: "003",
+      id: "0003",
       name: "Lille sup",
       melody: "Lille katt",
       category: ['alla', 'midsommar'],
       text: "Lille sup, lille sup,<br/>Lille söte supen<br/>Nu ska du, nu ska du,<br/>Ner igenom strupen",
       sender: "anonym"
     },
+    // Change position 004
     {
-      id: "004",
+      id: "0004",
       name: "Älgen Hans",
       melody: "Helan går",
       category: ['alla'],
       text: "Älgen Hans, han äter både sten och grus<br/>Älgen Hans, han välter stora hus<br/>Älgen, älgen, älgen-älgen<br/>Älgen, älgen, älgen-älgen<br/>Älgen Haaaaaaaaaaaans...<br/>...han har så stora horn!",
       sender: "anonym"
     },
+    // Change position 004
     {
-      id: "005",
+      id: "0005",
       name: "Imse Vimsig",
       melody: "Imse Vimse spindel",
-      category: ['alla', 'kraftskiva'],
+      category: ['alla'],
       text: "Imsig vimsig blir man av en liten hutt.<br/>Blodet börjar rusa, hjärtat tar ett skutt.<br/>Benen skälver, näsan den blir blå.<br/>Fast det är så läskigt<br/>      Vågar jag ändå.",
       sender: "anonym"
     },
     {
-        id: "006",
+        id: "0006",
         name: "Min sup den har sin fyllning",
         melody: "Min hatt den har tre kanter",
-        category: ['alla', 'pask'],
+        category: ['alla'],
         text: "Min sup den har sin fyllning,<br/>Sin fyllning har min sup.<br/>O har den ej nån fyllning,<br/>Så e de ej min sup.",
         sender: "anonym"
     },
     {
-        id: "007",
+        id: "0007",
         name: "Lambo",
         melody: "Lambo",
         category: ['alla', 'midsommar'],
@@ -56,51 +58,70 @@ export const data = [
         sender: "anonym"
     },
     {
-        id: "008",
+        id: "0008",
         name: "Festen i mitt hjärta",
         melody: "Stockholm i mitt hjärta",
-        category: ['alla', 'populara', 'jul'],      
+        category: ['alla', 'kraftskiva'],      
         text: "Festen i mitt hjärta<br/>Låt oss besjunga en skål<br/>Här utpå våran veranda<br/>Vi dricker så mycket vi tål<br/>Med kräftor från hela världen<br/>Suger vi i oss allt<br/>Genom kräftornas kärlek till magen<br/>Får vi blandning av dill och salt",
         sender: "anonym"
     },
     {
-        id: "009",
+        id: "0009",
         name: "Dom nubbarna",
         melody: "Små grodorna",
-        category: ['alla', 'populara', 'pask'],
+        category: ['alla', 'kraftskiva'],
         text: "Dom nubbarna, dom nubbarna<br/>Är lustiga att ha<br/>Dom nubbarna, dom nubbarna<br/>Dom vill vi gärna ha<br/>Ej röra, ej röra, nej skala kräftan först<br/>Och sedan, och sedan vi släcka ska vår törst.",
         sender: "anonym"
     },
     {
-      id: "010",
+      id: "0010",
       name: "Blicken i skyn",
       melody: "Blicken i skyn",
-      category: ['alla', 'populara', 'midsommar'],
+      category: ['alla', 'midsommar'],
       text: "Armen i vinkel,<br/>Blicken i skyn<br/>Så var det menat<br/>Whiskey och renat<br/>Vårt mål alkohol<br/>Skål för den som tål<br/>Skål!",
       sender: "Andreas S."
     },
+    // Change position 004
     {
-      id: "011",
+      id: "0011",
       name: "Lapin kulta",
       melody: "Broder Jakob",
       category: ['alla', 'finska'],
       text: "Lapin Kulta, Lapin Kulta,<br/>Karjala, Karjala<br/>Aura sekä Olvi<br/>Aura sekä Olvi<br/>Koff, Koff, Koff<br/>Koff, Koff, Koff",
       sender: "anonym"
     },
+    // Change position 004
     {
-      id: "012",
+      id: "0012",
       name: "Der er ingen bånd der binder mig",
       melody: "Der er ingen bånd der binder mig",
       category: ['alla', 'danska'],
       text: "Der er ingen bånd der binder mig<br/>Og mange øller drikker jeg<br/>Før var jeg en afholdsmand<br/>Og drak kun sodavand<br/><br/>Når vi til baller går mange mange øller får<br/>Vi er et alkohold<br/>Og vores øl skal være kold<br/><br/>Der er ingen bånd der binder mig<br/>Og mange øller drikker jeg<br/>Før var jeg en afholdsmand<br/>Og drak kun sodavand!<br/>",
       sender: "anonym"
     },
+    // Change position 004
     {
-      id: "013",
+      id: "0013",
       name: "Helan går",
       melody: "Helan går",
       category: ['alla', 'danska'],
       text: "Helan gå, hej kom faldera hurra hurra<br/>Helan gå, hej kom faldera hurra hurra<br/>Og den som ingen Helan går<br/>Han heller ingen Halan får<br/>Helan gå",
+      sender: "anonym"
+    },
+    {
+      id: "0014",
+      name: "Kräfta, kräfta",
+      melody: "Blinka lilla stjärna",
+      category: ['alla', 'kraftskiva'],
+      text: "Kräfta, kräfta prydd med dill,<br/>och en immig sup därtill,<br/>bröd och smör och ost och sill<br/>och så några supar till.<br/>Kräfta, kräfta prydd med dill,<br/>nu vi får allt vad vi vill",
+      sender: "anonym"
+    },
+    {
+      id: "0015",
+      name: "Ta en sup",
+      melody: "Tänd ett ljus",
+      category: ['alla', 'kraftskiva'],
+      text: "Ta en sup och låt det bränna<br/>låt aldrig halsen få känna, det är svalt nu<br/>men du blir varmare igen<br/>ta en sup för kräftan du käka<br/>akta mattan, sluta och kräka<br/>Ta en sup… för kräftans dag",
       sender: "anonym"
     }
   ];

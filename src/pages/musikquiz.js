@@ -68,7 +68,7 @@ const IndexPage = () => (
       </Link>
       <Link to="/musikquiz-2000-talet/" className="music-block-column">
         <img src={zerotiesMusikquiz} alt="Musikquiz 2000 talet" title="Musikquiz 2000 talet" />
-        <h4>00-talet</h4>
+        <h4>2000-talet</h4>
       </Link>
       <Link to="/90-tals-musikquiz/" className="music-block-column">
         <img src={ninetiesMusikquiz} alt="90-talet musikquiz" title="90-talet musikquiz" />
