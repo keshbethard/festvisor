@@ -7,10 +7,13 @@ import spotify from '../images/spotify.png'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Musikquiz rock" />
+    <SEO 
+      title="Musikquiz rock » Testa våra bästa rock quiz!" 
+      description="Vem i gänget har bäst koll på rock? Testa det med ett av våra musikquiz med rock. Listor med både svensk och utländsk rock väntar!"
+    />
     <div className="block">
       <h1>Musikquiz rock</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec dui justo. Nullam imperdiet enim lorem, congue laoreet dui imperdiet et. Nulla dapibus volutpat fermentum. Pellentesque accumsan imperdiet faucibus. In malesuada justo metus, nec bibendum urna vulputate a. Sed pretium sem quis semper consectetur. Phasellus ullamcorper nisi sit amet ex imperdiet elementum. Aliquam placerat sem id erat convallis, vulputate suscipit urna elementum.</p>
+      <p>Med flera låtar från band som spelat live på Sweden Rock i Norjeboke så kan vi garantera att ni kommer gilla våra musikquiz med rock. Tunga band som AC/DC, KIZZ, Iron Maiden med flera är alla inkluderade i våra rockmusik quiz. Rocken är den musikgenre som starkast förknippas med att dricka öl och ha det allmänt gott. Så varför inte lägga till en musikquiz med rock på nästa fest och se vem som är vassast i gänget! Varför inte rocka om reglerna lite med att första laget som når 5 poäng slipper halsa en bira. Då blir det helt plötsligt ännu viktigare att vinna tävling. För det må vara gott att ta en kall men att svepa en är inget man föredrar. Sådana här regler är inget måste utan bara ett exempel på att man kan mixtra själv med reglerna för att öka spänningen. Det går så klart utmärkt att tävla med vanliga regler också. Våra musikquizar är väldigt enkla att komma igång med. Med bara ett klick så lägger du till vår musikquiz spellista till din Spotify. Under varje lista finns det en spotify ikon du kan klicka på för att lägga till våran spellista. Förbaskat enkelt! Sedan är det bara bestämma reglerna du/ni vill köra.</p>
     </div>
     <div className="music-category-blocks">
       <div className="music-category-block-head">
