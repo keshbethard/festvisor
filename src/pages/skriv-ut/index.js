@@ -24,7 +24,7 @@ class SkrivUt extends React.Component {
   render() {
     return (
       <div className="print">
-        <input type="text" placeholder="Ange titel för kalaset!"></input><br/>
+        <input type="text" placeholder="Ange titel!"></input><br/>
         <img src={logo} alt="festvisor" title="festvisor" />
         <div className="print-blocks">
           {this.state.items.map(item => (
