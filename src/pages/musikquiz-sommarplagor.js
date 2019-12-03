@@ -18,7 +18,7 @@ const IndexPage = () => (
     </div>
     <div className="music-category-blocks">
       <div className="music-category-block-head">
-        <h2>Alla 60-talets musikquiz</h2>
+        <h2>Alla quiz med sommarplågor</h2>
       </div>
     </div>
   </Layout>
