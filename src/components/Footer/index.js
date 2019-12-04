@@ -31,8 +31,7 @@ const Footer = () => (
         </div>
         <div className="column">
           <h4>Följ oss</h4>
-          <img src={iconFacebook} alt="Facebook" title="Festvisor på Facebook" />
-          <img src={iconInstagram} alt="Instagram" title="Festvisor på Instagram" />
+          <a href="https://www.facebook.com/Festvisor-101868341298967/" target="_blank"><img src={iconFacebook} alt="Facebook" title="Festvisor på Facebook" /></a>
         </div>
       </div>
 

@@ -59,6 +59,44 @@ const IndexPage = () => (
         </div>
       </div>
 
+      {/* Svenska sommarplågor */}
+      <div className="music-category-block-column">
+        <div className="music-category-block-title">
+          <h4>Svenska sommarplågor</h4>
+          <a href="https://open.spotify.com/playlist/6RoaqxBzP6cNgVGLajCBH1?si=tOZHU3s6Rfy-_nZmIji-Rg" target="_blank"><img src={spotify} alt="Spotify" title="Spotify" /></a>
+        </div>
+        <ul>
+          <li>Den svenska björnstammen - Vart Jag Mig I Världen Vänder</li>
+          <li>Nic & The Family - Hej Monica</li>
+          <li>Glenmark Eriksson Strömstedt‎ - När vi gräver guld i USA</li>
+          <li>Ted Gärdestad - Sol, vind och vatten</li>
+          <li>Per Gessle - Här kommer alla känslorna</li>
+        </ul>
+        <div className="music-category-block-footer">
+          <div className="difficulty easy">Lätt</div> 
+          <div>Skapad av: <strong>festvisor.se</strong></div>
+        </div>
+      </div>
+
+      {/* Svenska julsånger */}
+      <div className="music-category-block-column">
+        <div className="music-category-block-title">
+          <h4>Svenska julsånger</h4>
+          <a href="https://open.spotify.com/playlist/3eqdfDr9Hsj3f1yJoLNnGR?si=vTC6qQu0RSKRpKKnRqAL_A" target="_blank"><img src={spotify} alt="Spotify" title="Spotify" /></a>
+        </div>
+        <ul>
+          <li>Just D - Juligen</li>
+          <li>Troll - Jag såg mamma kyssa tomten</li>
+          <li>Adolphson & Falk - Mer jul</li>
+          <li>Triad - Tänd ett ljus</li>
+          <li>Carola - Nu tändas tusen juleljus</li>
+        </ul>
+        <div className="music-category-block-footer">
+          <div className="difficulty easy">Lätt</div> 
+          <div>Skapad av: <strong>festvisor.se</strong></div>
+        </div>
+      </div>
+
     </div>
   </Layout>
 )

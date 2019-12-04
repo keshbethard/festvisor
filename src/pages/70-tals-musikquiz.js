@@ -16,10 +16,10 @@ const IndexPage = () => (
         <h2>Alla 70-talets musikquiz</h2>
       </div>
 
-      {/* Disco */}
+      {/* 70-tals disco */}
       <div className="music-category-block-column">
         <div className="music-category-block-title">
-          <h4>Disco</h4>
+          <h4>70-tals disco</h4>
           <a href="https://open.spotify.com/playlist/6iuhEmwlCa9k3MoOLRy2Kp?si=zH59hTh5RHCttYNUMKU_4Q" target="_blank"><img src={spotify} alt="Spotify" title="Spotify" /></a>
         </div>
         <ul>

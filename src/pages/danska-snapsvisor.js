@@ -3,13 +3,34 @@ import Layout from "../components/Layout"
 import Categories from "../components/Categories"
 import Visor from "../components/Visor"
 import SEO from "../components/seo"
+import data from '../components/utilities/snapsvisor'
 
 class Kraftskiva extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      checkoutItems: []
+    };
+  }
+
+  checkout = checkoutItems => {
+    this.setState({ 
+      checkoutItems: checkoutItems,
+    })
+  }
+
+  print = () => {
+      const url = '/skriv-ut?visor=' + this.state.checkoutItems;
+      window.open(url, '_blank');
   }
 
   render() {
+    var result = '';
+
+    if (this.state.checkoutItems.length > 0) {
+      result = data.filter(({id}) => this.state.checkoutItems.includes(id));
+    }
+
     return (
       <Layout>
         <SEO 
@@ -24,7 +45,18 @@ class Kraftskiva extends React.Component {
     
         <Categories />
 
-        <Visor category="danska" />
+        {result.length > 0 && (
+          <div className="checkout">
+              {result.map(item => (
+                <span className="name" key={item.id}>
+                  {item.name}
+                </span>
+              ))}
+              <button onClick={this.print}>Skriv ut</button>
+          </div>
+        )}
+
+        <Visor category="danska" checkout={this.checkout} />
       </Layout>
     )
   }
