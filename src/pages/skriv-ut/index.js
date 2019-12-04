@@ -21,6 +21,10 @@ class SkrivUt extends React.Component {
     })
   }
 
+  printOut = () => {
+    window.print();
+  }
+
   render() {
     return (
       <div className="print">
@@ -37,6 +41,7 @@ class SkrivUt extends React.Component {
             </div>
           ))}
         </div>
+        <button onClick={this.printOut} className="print-button">Skriv ut</button>
       </div>
     )
   }

@@ -26,6 +26,32 @@
         display: block;
     }
 
+    button {
+        line-height: 30px;
+        display: block;
+        text-align: center;
+        background-color: #1c8906;
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 2px;
+        margin-top: 10px;
+        border: none;
+        width: 100%;
+        cursor: pointer;
+        max-width: 200px;
+        margin: 0 auto;
+
+        @media print {
+            display: none;
+        }
+
+        &:hover {
+          background-color: #23a30a;
+        }
+    }
+
     .print-blocks {
         column-count: 1;
         column-gap: 10px;
@@ -36,7 +62,7 @@
 
         @media print {
             column-count: 2;
-          }
+        }
 
         .print-single {
             padding: 40px 20px 40px 20px;

@@ -97,7 +97,7 @@ export const data = [
       melody: "Der er ingen bånd der binder mig",
       category: ['alla', 'danska'],
       text: "Der er ingen bånd der binder mig<br/>Og mange øller drikker jeg<br/>Før var jeg en afholdsmand<br/>Og drak kun sodavand<br/><br/>Når vi til baller går mange mange øller får<br/>Vi er et alkohold<br/>Og vores øl skal være kold<br/><br/>Der er ingen bånd der binder mig<br/>Og mange øller drikker jeg<br/>Før var jeg en afholdsmand<br/>Og drak kun sodavand!<br/>",
-      sender: "anonym"
+      sender: "Agnete L."
     },
     // Change position
     {
@@ -106,7 +106,7 @@ export const data = [
       melody: "Helan går",
       category: ['alla', 'danska'],
       text: "Helan gå, hej kom faldera hurra hurra<br/>Helan gå, hej kom faldera hurra hurra<br/>Og den som ingen Helan går<br/>Han heller ingen Halan får<br/>Helan gå",
-      sender: "anonym"
+      sender: "Agnete L."
     },
     {
       id: "0014",

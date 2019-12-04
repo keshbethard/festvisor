@@ -23,6 +23,25 @@ const IndexPage = () => (
         <h2>Alla populära musikquiz</h2>
       </div>
 
+      {/* Rolling Stone: Tidernas bästa låtar */}
+      <div className="music-category-block-column">
+        <div className="music-category-block-title">
+          <h4>Rolling Stone: Bästa låtar</h4>
+          <a href="https://open.spotify.com/playlist/6QG0voQZiyJSFVFEoZM2yF?si=6gCnP8OtRLSypw_jkxOZkA" target="_blank"><img src={spotify} alt="Spotify" title="Spotify" /></a>
+        </div>
+        <ul>
+          <li>Bob Dylan - Like a Rolling Stone</li>
+          <li>John Lennon - Imagine</li>
+          <li>The Rolling Stones - (I Can't Get No) Satisfaction</li>
+          <li>Marvin Gaye - What's Going On</li>
+          <li>Nirvana - Smells Like Teen Spirit</li>
+        </ul>
+        <div className="music-category-block-footer">
+          <div className="difficulty easy">Lätt</div> 
+          <div>Skapad av: <strong>festvisor.se</strong></div>
+        </div>
+      </div>
+
       {/* Coldplay */}
       <div className="music-category-block-column">
         <div className="music-category-block-title">
