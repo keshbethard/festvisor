@@ -136,7 +136,7 @@ export const data = [
       sender: "anonym"
     },
     {
-      id: "0017",
+      id: "0018",
       name: "Sån är spriten",
       melody: "Sånt är livet",
       category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
@@ -144,7 +144,7 @@ export const data = [
       sender: "anonym"
     },
     {
-      id: "0018",
+      id: "0019",
       name: "Julsnapsvisa",
       melody: "En sockerbagare",
       category: ['alla', 'jul'],
@@ -152,7 +152,7 @@ export const data = [
       sender: "anonym"
     },
     {
-      id: "0019",
+      id: "0020",
       name: "Tänk om jag hade lilla nubben",
       melody: "Hej tomtegubbar",
       category: ['alla', 'jul'],
@@ -160,15 +160,15 @@ export const data = [
       sender: "anonym"
     },
     {
-      id: "0020",
+      id: "0021",
       name: "Vi tar ett rus",
       melody: "Nu har vi ljus",
       category: ['alla', 'jul'],
-      text: "Vi tar ett rus<br/>här i vårt hus<br/>Helan är kommen,<br/>hoppfalleralla.<br/>Julen är här<br/>julgrisen är<br/>full som ett bär.<br/>Hej nu brinner all juleljusen<br/>tomten och Lucia är på snusen,<br/>Fallleralla, falleralla,<br/>Fallerallalleralla",
+      text: "Vi tar ett rus<br/>Här i vårt hus<br/>Helan är kommen,<br/>Hoppfalleralla.<br/>Julen är här<br/>Julgrisen är<br/>Full som ett bär.<br/>Hej nu brinner all juleljusen<br/>Tomten och Lucia är på snusen,<br/>Fallleralla, falleralla,<br/>Fallerallalleralla",
       sender: "anonym"
     },
     {
-      id: "0021",
+      id: "0022",
       name: "Här är vi ju alla vänner",
       melody: "We wish you a Merry X-mas",
       category: ['alla', 'jul'],
@@ -176,15 +176,15 @@ export const data = [
       sender: "anonym"
     },
     {
-      id: "0022",
+      id: "0023",
       name: "Om man bara tar en smutt, smutt, smutt",
       melody: "Nu är glada julen slut, slut, slut",
-      category: ['alla', 'jul'],
+      category: ['alla', 'jul', 'populara', 'nyar'],
       text: "Om man bara tar en smutt, smutt, smutt<br/>Utav denna lilla hutt, hutt, hutt<br/>Har man ganska mycket kvar<br/>Men se den som spar han har<br/>Inte särskilt roligt",
       sender: "anonym"
     },
     {
-      id: "0023",
+      id: "0024",
       name: "Blinka lilla pärla där",
       melody: "Blinka lilla stjärna där",
       category: ['alla', 'jul'],
@@ -192,7 +192,7 @@ export const data = [
       sender: "anonym"
     },
     {
-      id: "0024",
+      id: "0025",
       name: "Är ni redo?",
       melody: "Hej tomtegubbar",
       category: ['alla', 'jul'],
@@ -200,7 +200,7 @@ export const data = [
       sender: "anonym"
     },
     {
-      id: "0025",
+      id: "0026",
       name: "Ser du stjärnan",
       melody: "When You Wish Upon a Star",
       category: ['alla', 'jul'],
@@ -208,13 +208,229 @@ export const data = [
       sender: "anonym"
     },
     {
-      id: "0026",
+      id: "0027",
       name: "Norden",
       melody: "Högt över havet",
-      category: ['alla'],
+      category: ['alla', 'nyar'],
       text: "Finland är Finland och Finland är bra.<br/>Dom har en pipeline med sprit från Moskva.<br/>Bada Bastu, piska med ris,<br/>Hacka hål i is.<br/><br/>Danmark är Danmark och Danmark är bra.<br/>Dom har en jungfru som sitter så bar.<br/>Röde pölsor med Tuborg och lök,<br/>Vi köpte billig krök.<br/><br/>Norge är Norge och Norge är bra.<br/>Dom har den olja som vi vill ha.<br/>Dyrt i baren ett jävla pris,<br/>Klubba säl med is.<br/><br/>Island är Island och Island är bra.<br/>Kriser, vulkaner och hästar dom har.<br/>Jag fiser i geisern vad var det jag sa, valspeck varje dag.<br/><br/>Sverige är Sverige och Sverige är bäst.<br/>Ingvar Kamprad han tjänar mest.<br/>Ullared, Abba och Absolut,<br/>Nu är visan slut.",
       sender: "anonym"
-    }
+    },
+    {
+      id: "0028",
+      name: "Bamse den snuskige",
+      melody: "Bamse",
+      category: ['alla'],
+      text: "Bamse, Bamse knullar Skutt i baken,<br/>Svansen kittlar skönt när man är naken.<br/>Skalman runkar, Farmor kokar honung,<br/>Så att Bamse kan få stånd igen.<br/><br/>In och ut i alla hål är mer än Brummelisa tål<br/>Men det är svårt att säga stopp med munnen full med snopp.",
+      sender: "anonym"
+    },
+    {
+      id: "0029",
+      name: "Måsen",
+      melody: "När månen vandrar",
+      category: ['alla'],
+      text: "Det satt en mås på en klyvarbom<br/>Och tom i krävan var kräke'.<br/>Och tungan lådde vid skepparns gom<br/>Och skutan låg uti bleke'.<br/>Jag vill ha sill hördes måsen rope'<br/>Och skepparn svarte: jag vill ha OP<br/>Om blott jag får, om blott jag får.<br/><br/>(Helan tas)</br><br/>Nu lyfter måsen fån klyvarbom<br/>Och vinden spelar i tågen.<br/>OP'n svalkat har skepparns gom,<br/>Jag önskar blott att jag såg'en.<br/>Så nöjd och lycklig den arme saten,<br/>Han sätter storsegel den krabaten,<br/>Till sjöss han far och halvan tar!<br/><br/>(Halvan tas)",
+      sender: "anonym"
+    },
+    {
+      id: "0030",
+      name: "Bamses festvisa",
+      melody: "Bamsevisan",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "Jag skall festa, ta det lugnt med spriten,<br/>Ha det roligt utan att va' full.<br/>Inte krypa runt med festeliten,<br/>Ta det sansat för min egen skull.<br/><br/>Först en öl i torra strupen,<br/>Efter det så kommer supen,<br/>I med vinet ner med punschen,<br/>Sist en groggbuffé.<br/><br/>Jag blir skitfull, däckar först av alla,<br/>Missar festen, men vad gör väl de'?<br/>Blandar hejdlöst öl och gammal filmjölk,<br/>Kastar upp på bordsdamen breve'.<br/><br/>Spyan rinner nerför ylleslipsen,<br/>Ravioli torkar i mitt hår.<br/>Vem har lagt mig under matsalsbordet,<br/>Vems är gaffeln i mitt högra lår?",
+      sender: "anonym"
+    },
+    {
+      id: "0031",
+      name: "Mera brännvin i glasen",
+      melody: "Internationalen",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "Mera brännvin i glasen.<br/>Flera glas på vårt bord.<br/>Flera bord på kalasen.<br/>Flera kalas på vår jord.<br/>Flera jordar kring månen.<br/>Flera månar kring Mars.<br/>Flera marscher ner till Skåne.<br/>Mera Skåne, gu’bevars.",
+      sender: "anonym"
+    },
+    {
+      id: "0032",
+      name: "Uti vår mage",
+      melody: "Uti vår hage",
+      category: ['alla', 'midsommar'],
+      text: "Uti vår mage där<br/>Växa begär<br/>Kom hjärtans kär.<br/>Vill du mig något<br/>Så träffas vi där.<br/>Kom kryddsill och kall potatis,<br/>Kom brännvin och quantum satis,<br/>Kom allt som kan drickas,<br/>Kom hjärtans fröjd.",
+      sender: "anonym"
+    },
+    {
+      id: "0033",
+      name: "Ingen mer sprit",
+      melody: "No milk today",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "Ingen mer sprit, nu ska jag vara vit.<br/>Jag kämpar och står i,<br/>Tar tag och slår mig fri.<br/>Ingen mer sprit, ge mig lite respit.<br/>Jag står snart inte ut.<br/> Jag måste få en sup.<br/>Skål!",
+      sender: "anonym"
+    },
+    {
+      id: "0034",
+      name: "Nu är det jul igen",
+      melody: "Nu är det jul igen",
+      category: ['alla', 'jul'],
+      text: "Nu är det jul igen<br/>Och nu är det jul igen<br/>Och efter nu så kommer sedan.<br/>Men det var inte sant,<br/>Nej, det var inte sant,<br/>För däremellan kommer medan.<br/>Skål!",
+      sender: "anonym"
+    },
+    {
+      id: "0035",
+      name: "Hej Tomtegubbar",
+      melody: "Hej Tomtegubbar",
+      category: ['alla', 'jul'],
+      text: "Hej tomtegubbar slå i glasen<br/>Och låt oss lustiga vara.<br/>Hej tomtegubbar slå i glasen<br/>Och låt oss lustiga vara<br/>En liten tid vi leva här<br/>Med mycket möda och stort besvär.<br/>Hej tomtegubbar slå i glasen<br/>Och låt oss lustiga vara.",
+      sender: "anonym"
+    },
+    {
+      id: "0036",
+      name: "Ett kräftkalas",
+      melody: "O Tannenbaum",
+      category: ['alla', 'kraftskiva'],
+      text: "Ett kräftkalas, ett kräftkalas,<br/>Det är kalas med fulla glas.<br/>Men finns det bara tomma glas,<br/>Så är det inget kräftkalas.<br/>Ett kräftkalas, ett kräftkalas,<br/>Det är kalas med fulla glas.",
+      sender: "anonym"
+    },
+    {
+      id: "0037",
+      name: "Hej allihopa",
+      melody: "Hej tomtegubbar",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "Hej, allihopa höjen glasen<br/>Nu ska vi sjunga för helan.<br/>Men är det nån som blir i gasen,<br/>Så är det bättre att dela'n.<br/>För egen del, jag tror min själ,<br/>Att jag ska ta den och ta den hel.<br/>Hej, allihopa höjen glasen<br/>Nu ska vi sjunga för helan.",
+      sender: "anonym"
+    },
+    {
+      id: "0038",
+      name: "Vår första skål",
+      melody: "Vi går över daggstänkta berg",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "All stelhet lägg av och var fri, fallera.<br/>Det hänger på just dig hur här ska bli, fallera.<br/>Låt skrattlaviner runga<br/>Ikväll är alla unga<br/>Och alla har gått in för gott humör, fallera.<br/><br/>Så dricker vi nu vår första skål, fallera.<br/>Och var och en har valt den dryck han tål, fallera.<br/>Vad än ni har i glasen<br/>Ni måste bli i gasen<br/>Berusad av skämt och gott humör, fallera.",
+      sender: "anonym"
+    },
+    {
+      id: "0039",
+      name: "Välkommen hit",
+      melody: "Å jänta å ja",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "Välkommen hit, ta er en bit,<br/>Spill ej på duken som är så vit.<br/>Skoj ska vi ha, dricka vi ska<br/>Trivas så där förtroligt.<br/>Humöret på alla toppen ska nå<br/>Skratta och sjunga det kan vi få,<br/>Med minnen av kvällen hemåt vi gå,<br/>I kväll ska vi ha det roligt.<br/>Skål!",
+      sender: "anonym"
+    },
+    {
+      id: "0040",
+      name: "Hej alla häxor",
+      melody: "Hej Tomtegubbar",
+      category: ['alla', 'pask'],
+      text: "Hej alla häxor, ta fram kvasten vi ska till Blåkulla fara.<br/>Hej alla häxor, ta fram kvasten vi ska till Blåkulla fara.<br/>En liten tid, vi flyger kring<br/>Med mycket möda och mycket sving.<br/>Hej alla häxor ta fram kvasten, vi ska till Blåkulla fara.",
+      sender: "anonym"
+    },
+    {
+      id: "0041",
+      name: "Sprit i flaskan",
+      melody: "Kiss i sängen",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "Sprit i flaskan å ha det bra<br/>Sitta lite å fundera<br/>Varm om kaggen som en sommar dag,<br/>Jag tror jag groggar lite mera.",
+      sender: "anonym"
+    },
+    {
+      id: "0042",
+      name: "Full och galen",
+      melody: "Kors på Idas grav",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "Full och galen med moralen minimal.<br/>Supen ger signalen till vår backanal.<br/>Ritualen i lokalen är att tömma sin pokal.<br/>Så skandalen i finalen är total.",
+      sender: "anonym"
+    },
+    {
+      id: "0043",
+      name: "Du är full",
+      melody: "Det gör ont",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "Full, du är fall<br/>Och så dum<br/>Att du knappt kan tugga tuggummi<br/>Ens en sekund.<br/><br/>Du är så himla full,<br/>Ja, så full<br/>Att du snart<br/>Tar ett steg rakt ut i intet<br/>Och snubblar omkull.<br/><br/>Sen ligger du där,<br/>Ser stjärnornas färd.<br/>Du är full.",
+      sender: "anonym"
+    },
+    {
+      id: "0044",
+      name: "Lite fuller är ja",
+      melody: "Lili Marleen",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "Lite fuller är ja, å de vill ja va'.<br/>Lite mera brännvin i glaset vill jag ha,<br/>För då så blir man stark och stor<br/>Och pratar sånt som ingen tror.<br/>Men vad gör det min vän,<br/>Nu skålar vi igen.",
+      sender: "anonym"
+    },
+    {
+      id: "0045",
+      name: "Drick nu",
+      melody: "IQ",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "Drick nu!<br/>För glaset upp till munnen!<br/><br/>Drick nu!<br/>Ta allt i ett svep!<br/><br/>Drick nu!<br/>Släng prästerna i brunnen!<br/><br/>Drick nu!<br/>Rid till helvetet på en get!<br/>Bli aldrig fet!",
+      sender: "anonym"
+    },
+    {
+      id: "0046",
+      name: "Dränkta Lucia",
+      melody: "Sankta Lucia",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "Huvut slår kopparslag,<br/>Ögonen svider,<br/>Magen i obehag,<br/>Natten den lider.<br/>Då genom strupen går,<br/>Hembränd en liten tår,<br/>Vördat vare varat brännvin,<br/>Vördat vårt brännvin.",
+      sender: "anonym"
+    },
+    {
+      id: "0047",
+      name: "Supartider",
+      melody: "Sommartider",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "Supartider hej hej, supartider!<br/>Bira och bärs och en liter öl<br/>Oh oh ooooh!<br/>Trillar i en jävla spypöl!",
+      sender: "anonym"
+    },
+    {
+      id: "0048",
+      name: "Alla mina vänner",
+      melody: "Imse vimse spindel",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "Alla mina vänner dom gör liksom jag.<br/>Dom sätter sig ner och super sig full,<br/>Och reser sig upp och ramlar omkull.<br/>Ja, alla mina vänner dom gör liksom jag.",
+      sender: "anonym"
+    },
+    {
+      id: "0049",
+      name: "Dom som är nyktra",
+      melody: "Du är den ende",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "Dom som är nyktra har inte så roligt,<br/>Dom har bara ansvar och inte nå’t<br/>Tjolittanlejfaderulla,<br/>Men vi som är fulla<br/>Vi har bara kul nästan jämt.<br/>Det gör detsamma var vi må va’ gäster. Ja, till och med lanthushållningssällskapsfester<br/>Kan uthärdas med eau-de-vie, som får<br/>Månda’n att bli blott en vag utopi.",
+      sender: "anonym"
+    },
+    {
+      id: "0050",
+      name: "Liksom från ovan",
+      melody: "I Apladalen",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "Liksom från ovan, den som en skänk är<br/>Den lille snapsen, där står och blänker<br/>Lyft upp den nu, så det inte stänk---er<br/>Den ner i magen, vi sakta sänk---er",
+      sender: "anonym"
+    },
+    {
+      id: "0051",
+      name: "34:an",
+      melody: "34:an",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "Detta glas som står på bordet<br/>Det ska tömmas inom kort<br/>Det skall sätta fart på blodet<br/>Jaga sura miner bort.<br/>Här ska ätas, här ska drickas, här ska sjungas natten lång,<br/>Om det spritter uti benen<br/>Finns det säkert nåt på gång. Ja, nu är det fest för hela gänget<br/>Ja, nu är det skål och botten opp, Här ska alla vänner trivas<br/>Här ska stämningen i topp, och vi tar dig kära pärla,<br/>Vilken härlig medicin<br/>Nu är det dags att börja leva<br/>Nu går lilla nubben i magen in",
+      sender: "anonym"
+    },
+    {
+      id: "0052",
+      name: "Kräftor vi äta",
+      melody: "Vi gå över daggstänkta berg",
+      category: ['alla', 'kraftskiva'],
+      text: "Och kräftor vi äta utan knot, fallera,<br/>Mot dåligt lynne skänka de oss bot, fallera.<br/>Ty till var kräfteflicka, vi en brännvinsnubbe dricka<br/>Och det har vi ingenting emot, fallera.<br/>Ty till var kräfteflicka, vi en brännvinsnubbe dricka<br/>Och det har vi ingenting emot, fallera.",
+      sender: "anonym"
+    },
+    {
+      id: "0053",
+      name: "Kräftan",
+      melody: "Räven raskar över isen",
+      category: ['alla', 'kraftskiva'],
+      text: "Kräftan lyser i karotten<br/>Och den största finns i botten,<br/>Dit ska vi ner, tills att vi ser<br/>Vem som till sist haver fått'en.<br/><br/>Uti glasen finns det vått än<br/>Bästa droppen finns i botten,<br/>När den ska ner, ska botten upp<br/>Tills det går runt i kalotten.<br/><br/>Månen speglar sig i krusen,<br/>Ombesörjer gratis ljusen<br/>När den går ner, då går vi opp<br/>Och vandrar hem lätt på snusen.",
+      sender: "anonym"
+    },
+    {
+      id: "0054",
+      name: "En gång i månan",
+      melody: "Mors lilla Olle",
+      category: ['alla', 'populara', 'midsommar', 'jul', 'pask', 'nyar', 'kraftskiva'], //alla
+      text: "En gång i månan<br/>Är månen full<br/>Men aldrig vi sett<br/>Honom ramla omkull<br/>Stum av beundran<br/>Hur mycket han tål<br/>Höjer vi glasen och<br/>Dricker hans skål",
+      sender: "anonym"
+    },
   ];
   
   export default data;
