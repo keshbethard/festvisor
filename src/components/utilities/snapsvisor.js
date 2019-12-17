@@ -206,6 +206,14 @@ export const data = [
       category: ['alla', 'jul'],
       text: "Ser du stjärnan i det blå?<br/>Ta en sup så ser du två.<br/>Tar du mera, ser du flera<br/>stjärnor små.",
       sender: "anonym"
+    },
+    {
+      id: "0026",
+      name: "Norden",
+      melody: "Högt över havet",
+      category: ['alla'],
+      text: "Finland är Finland och Finland är bra.<br/>Dom har en pipeline med sprit från Moskva.<br/>Bada Bastu, piska med ris,<br/>Hacka hål i is.<br/><br/>Danmark är Danmark och Danmark är bra.<br/>Dom har en jungfru som sitter så bar.<br/>Röde pölsor med Tuborg och lök,<br/>Vi köpte billig krök.<br/><br/>Norge är Norge och Norge är bra.<br/>Dom har den olja som vi vill ha.<br/>Dyrt i baren ett jävla pris,<br/>Klubba säl med is.<br/><br/>Island är Island och Island är bra.<br/>Kriser, vulkaner och hästar dom har.<br/>Jag fiser i geisern vad var det jag sa, valspeck varje dag.<br/><br/>Sverige är Sverige och Sverige är bäst.<br/>Ingvar Kamprad han tjänar mest.<br/>Ullared, Abba och Absolut,<br/>Nu är visan slut.",
+      sender: "anonym"
     }
   ];
   
