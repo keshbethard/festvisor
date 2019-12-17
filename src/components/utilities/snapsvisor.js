@@ -23,7 +23,6 @@ export const data = [
       text: "Lille sup, lille sup,<br/>Lille söte supen<br/>Nu ska du, nu ska du,<br/>Ner igenom strupen",
       sender: "anonym"
     },
-    // Change position
     {
       id: "0004",
       name: "Älgen Hans",
@@ -32,7 +31,6 @@ export const data = [
       text: "Älgen Hans, han äter både sten och grus<br/>Älgen Hans, han välter stora hus<br/>Älgen, älgen, älgen-älgen<br/>Älgen, älgen, älgen-älgen<br/>Älgen Haaaaaaaaaaaans...<br/>...han har så stora horn!",
       sender: "anonym"
     },
-    // Change position
     {
       id: "0005",
       name: "Imse Vimsig",
@@ -81,7 +79,6 @@ export const data = [
       text: "Armen i vinkel,<br/>Blicken i skyn<br/>Så var det menat<br/>Whiskey och renat<br/>Vårt mål alkohol<br/>Skål för den som tål<br/>Skål!",
       sender: "Andreas S."
     },
-    // Change position
     {
       id: "0011",
       name: "Lapin kulta",
@@ -90,7 +87,6 @@ export const data = [
       text: "Lapin Kulta, Lapin Kulta,<br/>Karjala, Karjala<br/>Aura sekä Olvi<br/>Aura sekä Olvi<br/>Koff, Koff, Koff<br/>Koff, Koff, Koff",
       sender: "anonym"
     },
-    // Change position
     {
       id: "0012",
       name: "Der er ingen bånd der binder mig",
@@ -99,7 +95,6 @@ export const data = [
       text: "Der er ingen bånd der binder mig<br/>Og mange øller drikker jeg<br/>Før var jeg en afholdsmand<br/>Og drak kun sodavand<br/><br/>Når vi til baller går mange mange øller får<br/>Vi er et alkohold<br/>Og vores øl skal være kold<br/><br/>Der er ingen bånd der binder mig<br/>Og mange øller drikker jeg<br/>Før var jeg en afholdsmand<br/>Og drak kun sodavand!<br/>",
       sender: "Agnete L."
     },
-    // Change position
     {
       id: "0013",
       name: "Helan går",
