@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{w2l6:function(t,e,a){"use strict";a.r(e);var n=a("q1tI"),l=a.n(n),i=a("Zttt"),r=a("vrFN");e.default=function(){return l.a.createElement(i.a,null,l.a.createElement(r.a,{title:"404: Not found"}),l.a.createElement("h1",null,"Sidan kunde hittas"),l.a.createElement("p",null,"Sidan du hamnade på existerar inte. Gå tillbaka till startsidan."))}}}]);
-//# sourceMappingURL=component---src-pages-404-js-c2950cf1a333314b62e8.js.map
