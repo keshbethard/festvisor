@@ -29,9 +29,9 @@ const Layout = ({ children }) => {
         <div className="annons">
           <div className="message name">annons</div>
           <a href="https://alcasino.se/" target="_blank" rel="noopener noreferrer">
-            <img className="annons-small" src={annons} alt="Alcasino" title="Alcasino.se™" />
-            <img className="annons-big" src={annonsBig} alt="Alcasino" title="Alcasino.se™" /></a>
-          <div className="message">Hitta bästa <a href="https://alcasino.se/" target="_blank" rel="noopener noreferrer">casino på nätet</a>.</div>
+            <img className="annons-small" src={annons} alt="Alcasino" title="Alcasino.se™" rel="sponsored" />
+            <img className="annons-big" src={annonsBig} alt="Alcasino" title="Alcasino.se™" rel="sponsored" /></a>
+          <div className="message">Hitta bästa <a href="https://alcasino.se/" target="_blank" rel="noopener noreferrer sponsored">casino på nätet</a>.</div>
         </div>
       </main>
       <Footer />
