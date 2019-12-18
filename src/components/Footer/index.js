@@ -11,8 +11,8 @@ const Footer = () => (
     <div className="wrapper">
       <div className="columns">
         <div className="column">
-          <h4>Om oss</h4>
-          <p>festvisor.se är en av Sveriges största samlingsplats för snapsvisor och musikquiz på nätet.</p>
+          <h4>Om Festvisor.se</h4>
+          <p><Link to="/">Festvisor</Link> är en av Sveriges största samlingsplatser för snapsvisor och musikquiz på nätet.</p>
         </div>
         <div className="column">
           <h4>Information</h4>
@@ -31,7 +31,7 @@ const Footer = () => (
         </div>
         <div className="column">
           <h4>Följ oss</h4>
-          <a href="https://www.facebook.com/Festvisor-101868341298967/" target="_blank"><img src={iconFacebook} alt="Facebook" title="Festvisor på Facebook" /></a>
+          <a href="https://www.facebook.com/festvisor/" target="_blank"><img src={iconFacebook} alt="Facebook" title="Festvisor på Facebook" /></a>
         </div>
       </div>
 
